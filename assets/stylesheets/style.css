@@ -19,3 +19,30 @@ body {
   line-height: 1.4;
   /* max-width: 100%; */
 }
+
+
+
+@media only screen and (max-width: 367px) { ... }
+/* font size */
+
+@media only screen and (min-width: 768px) { ... }
+/* background pictures */
+
+@media only screen and (min-width: 971px) { ... }
+/* font size */
+
+@media only screen and (min-width: 1025px) { ... }
+/* navbar & footer */
+
+@media only screen and (min-width: 1071px) { ... }
+/* font size */
+
+@media only screen and (min-width: 1103px) { ... }
+/* feature gift guide */
+
+@media only screen and (min-width: 1191px) { ... }
+/* About Us*/
+
+
+@media only screen and (min-width: 1270px) { ... }
+/* font size */
