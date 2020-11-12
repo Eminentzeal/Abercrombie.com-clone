@@ -30,10 +30,10 @@ body {
 }
 
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 0.63rem;
-  font-size: 0.63rem;
+  background-color:transparent;
+  color: #000000;
+  /* padding: 0.63rem; */
+  /* font-size: 0.63rem; */
   border: none;
 }
 
@@ -58,8 +58,8 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 11.42rem;
+  background-color: #fff;
+  /* min-width: 11.42rem; */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  text-decoration: underline;
 }
 
 .dropdown:hover .dropdown-content {
@@ -80,16 +80,35 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  text-decoration: underline;
 }
 
 .btn {
-  background: transparent;
+  color: #fff;
   border: 1px solid #fff;
 }
 
+.btn:hover {
+  background: #ffffff;
+  color: #7b1819;
+}
 
+.usa-flag {
+  width: 1.5rem;
+}
 
+.far,
+.fas {
+  font-size: 1.5rem;
+}
+
+.hid-gift-guide {
+  display: none;
+}
+
+.hid-about-us {
+  display: none;
+}
 
 
 
@@ -108,10 +127,18 @@ body {
 @media only screen and (min-width: 1071px) { ... }
 /* font size */
 
-@media only screen and (min-width: 1103px) { ... }
+@media only screen and (min-width: 1103px) {
+    .hid-gift-guide{
+  display: block;
+}
+}
 /* feature gift guide */
 
-@media only screen and (min-width: 1191px) { ... }
+@media only screen and (min-width: 1191px) {
+  .hid-about-us {
+    display: block;
+  }
+}
 /* About Us*/
 
 
