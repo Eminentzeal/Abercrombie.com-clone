@@ -124,6 +124,10 @@ body {
   font-size: 2rem;
 }
 
+.best-dressed-img {
+  width: 20rem;
+}
+
 
 
 @media only screen and (max-width: 367px) { ... }
