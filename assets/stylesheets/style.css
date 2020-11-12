@@ -2,7 +2,7 @@
   --garamond: 'EB Garamond', serif;
 }
 html {
-  font-family: 'Lato', sans-serif;
+  /* font-family: trad; */
   font-size: 14px;
   color: var(--black);
 }
@@ -14,11 +14,72 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: var(--garamond);
   text-align: center;
   line-height: 1.4;
-  /* max-width: 100%; */
 }
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.63rem;
+  font-size: 0.63rem;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+  text-align: left;
+}
+
+.width {
+  width: 28.6rem;
+}
+
+.fierce {
+  width: 7.14rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 11.42rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 0.86rem 1.14rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+
+
 
 
 
