@@ -14,7 +14,6 @@ html {
 
 body {
   font-family: var(--garamond);
-  text-align: center;
   line-height: 1.4;
 }
 
@@ -82,18 +81,18 @@ body {
   text-decoration: underline;
 }
 
-/* .btn {
-  padding-top: 5rem;
+.btn {
+  margin-top: 21rem;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 0;
-  padding: 1rem 4rem;
+  padding: 0.8rem 6rem;
 }
 
 .btn:hover {
   background: #ffffff;
   color: #7b1819;
-} */
+}
 
 .usa-flag {
   width: 1.5rem;
@@ -113,15 +112,15 @@ body {
 }
 
 .card-img-overlay {
-  padding-top: 20rem;
+  padding-top: 10rem;
 }
 
 .card-img-overlay h1 {
-  font-size: 5rem;
+  font-size: 3.8rem;
 }
 
 .card-img-overlay p {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .best-dressed-img {
@@ -130,17 +129,19 @@ body {
 
 
 
-@media only screen and (max-width: 367px) { ... }
+@media only screen and (max-width: 367px) {
+}
 /* font size */
 
 @media only screen and (min-width: 768px) {
   .btn {
+    margin-top: 0;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 0;
     padding: 1rem 4rem;
   }
-  
+
   .btn:hover {
     background: #ffffff;
     color: #7b1819;
@@ -148,13 +149,31 @@ body {
 }
 /* background pictures */
 
-@media only screen and (min-width: 971px) {}
+@media only screen and (min-width: 971px) {
+  .card-img-overlay h1 {
+    font-size: 4.2rem;
+  }
+
+  .card-img-overlay p {
+    font-size: 2.2rem;
+  }
+}
 /* font size */
 
-@media only screen and (min-width: 1025px) {}
+@media only screen and (min-width: 1025px) {
+ 
+}
 /* navbar & footer */
 
-@media only screen and (min-width: 1071px) {}
+@media only screen and (min-width: 1071px) {
+  .card-img-overlay h1 {
+    font-size: 4.6rem;
+  }
+
+  .card-img-overlay p {
+    font-size: 2.6rem;
+  }
+}
 /* font size */
 
 @media only screen and (min-width: 1103px) {
@@ -178,7 +197,7 @@ body {
   }
   
   .card-img-overlay p {
-    font-size: 3em;
+    font-size: 3rem;
   }
 }
 /* font size */
