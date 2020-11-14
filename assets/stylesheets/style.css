@@ -149,6 +149,11 @@ body {
   font-size: 2rem;
 }
 
+.btn-seventh {
+  border: none;
+  border-color: transparent;
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 367px) {
   /* .card-img-overlay h1 {
@@ -182,11 +187,6 @@ body {
   .sixth {
     text-align: left;
   }
-
-  .btn-seventh {
-    border: 1px solid#0000 ;
-    text-decoration: none;
-  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -214,17 +214,15 @@ body {
     text-decoration: underline;
   }
 
-  .btn-seventh {
-    border: none;
-    border-color: transparent;
-    text-decoration: underline;
-  }
-
 .btn-seventh:hover {
     background-color: transparent;
     color: rgb(228, 215, 215);
     text-decoration: underline;
   }
+
+.footer-heading {
+  padding: 5rem;
+}
 }
 /* background pictures */
 
