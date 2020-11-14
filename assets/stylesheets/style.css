@@ -142,7 +142,11 @@ body {
 }
 
 .sixth {
-  height: 120%;
+  text-align: center;
+}
+
+.sixth h1 {
+  font-size: 2rem;
 }
 
 
@@ -173,6 +177,16 @@ body {
   .btn:hover {
     background: #ffffff;
     color: #7b1819;
+  }
+
+  .sixth {
+    text-align: left;
+  }
+
+  .btn{
+    border: none;
+    border-color: transparent;
+    text-decoration: underline;
   }
 }
 /* background pictures */
@@ -231,5 +245,18 @@ body {
   .card-img-overlay p {
     font-size: 2.5rem;
   }
+
+  .sixth h1 {
+    font-size: 2rem;
+  }
+
+  .sixth h3 {
+    font-size: 2rem;
+  }
+  
+  .sixth p {
+    font-size: 2rem;
+  }
+
 }
 /* font size */
