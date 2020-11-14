@@ -182,10 +182,42 @@ body {
   .sixth {
     text-align: left;
   }
+}
 
-  .btn{
+@media only screen and (max-width: 768px) {
+.btn-fifth {
     border: none;
     border-color: transparent;
+    text-decoration: underline;
+  }
+
+.btn-fifth:hover {
+    background: transparent;
+    color: rgb(228, 215, 215);
+    text-decoration: underline;
+  }
+
+.btn-sixth {
+    border: none;
+    border-color: transparent;
+    text-decoration: underline;
+  }
+
+.btn-sixth:hover {
+    background: transparent;
+    color: rgb(228, 215, 215);
+    text-decoration: underline;
+  }
+
+  .btn-seventh {
+    border: none;
+    border-color: transparent;
+    text-decoration: underline;
+  }
+
+.btn-seventh:hover {
+    background-color: transparent;
+    color: rgb(228, 215, 215);
     text-decoration: underline;
   }
 }
@@ -219,6 +251,18 @@ body {
   .card-img-overlay p {
     font-size: 2rem;
   }
+
+  .sixth h1 {
+    font-size: 2.5rem;
+  }
+
+  .sixth h3 {
+    font-size: 2.1rem;
+  }
+  
+  .sixth p {
+    font-size: 1.7rem;
+  }
 }
 /* font size */
 
@@ -246,15 +290,18 @@ body {
     font-size: 2.5rem;
   }
 
-  .sixth h1 {
-    font-size: 2rem;
+  .sixth h1,
+  .seventh h1 {
+    font-size: 3rem;
   }
 
-  .sixth h3 {
-    font-size: 2rem;
+  .sixth h3,
+  .seventh h3 {
+    font-size: 2.5rem;
   }
   
-  .sixth p {
+  .sixth p,
+  .seventh p {
     font-size: 2rem;
   }
 
