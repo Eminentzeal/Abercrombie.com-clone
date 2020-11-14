@@ -122,7 +122,7 @@ body {
 }
 
 .card-img-overlay h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .card-img-overlay p {
@@ -130,7 +130,7 @@ body {
 }
 
 .card-img-overlay-fourth h1 {
-  font-size: ;
+  font-size: 2rem;
 }
 
 .btn-row {
@@ -141,6 +141,9 @@ body {
   width: 20rem;
 }
 
+.sixth {
+  height: 120%;
+}
 
 
 @media only screen and (max-width: 367px) {
@@ -181,6 +184,10 @@ body {
 
   .card-img-overlay p {
     font-size: 1rem;
+  }
+
+  .card-img-overlay-fourth h1 {
+    font-size: 1.5rem;
   }
 }
 /* font size */
