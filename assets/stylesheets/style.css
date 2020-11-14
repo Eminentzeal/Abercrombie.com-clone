@@ -182,6 +182,11 @@ body {
   .sixth {
     text-align: left;
   }
+
+  .btn-seventh {
+    border: 1px solid#0000 ;
+    text-decoration: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
