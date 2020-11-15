@@ -17,6 +17,11 @@ body {
   line-height: 1.4;
 }
 
+.col-4-1 {
+  flex: 0 0 28%;
+}
+
+
 .navbar-first {
   color: #fff;
   /* text-decoration: none; */
@@ -170,26 +175,16 @@ body {
 }
 /* font size */
 
-@media only screen and (min-width: 768px) {
-  .btn {
-    margin-top: 0;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 0;
-    padding: 0.5rem 3.5rem;
-  }
-
-  .btn:hover {
-    background: #ffffff;
-    color: #7b1819;
-  }
-
-  .sixth {
-    text-align: left;
-  }
-}
-
 @media only screen and (max-width: 768px) {
+
+  .card-img-overlay h1 {
+    font-size: 2rem;
+  }
+  
+  .card-img-overlay p {
+    font-size: 1rem;
+  }
+
 .btn-fifth {
     border: none;
     border-color: transparent;
@@ -225,6 +220,29 @@ body {
 }
 }
 /* background pictures */
+
+
+@media only screen and (min-width: 768px) {
+  .btn {
+    margin-top: 0;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    padding: 0.5rem 3.5rem;
+  }
+
+  .btn:hover {
+    background: #ffffff;
+    color: #7b1819;
+  }
+
+  .sixth {
+    text-align: left;
+  }
+  .best-dressed-img {
+    width: 12rem;
+}
+
 
 @media only screen and (min-width: 971px) {
   .card-img-overlay h1 {
