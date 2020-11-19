@@ -31,7 +31,7 @@ This project is about creating a website using bootstrap framework
     * https://www.linkedin.com/company/michub/
 
 ## Live Demo
-[See project live here](https://github.com/Eminentzeal/Abercrombie.com-clone/blob/main/index.html)
+[See project live here](https://raw.githack.com/Eminentzeal/Abercrombie.com-clone/main/index.html)
 
 
 ## Source site
