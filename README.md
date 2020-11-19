@@ -11,10 +11,10 @@ This project is about creating a website using bootstrap framework. the website 
 * HTML
 
 ## Author
-* 👨‍🦱Ezekiel Ogunniwa
-    * Github: https://github.com/Eminentzeal
-    * linkedin: https://www.linkedin.com/in/ogunniwaezekiel/
-    * Twitter: https://twitter.com/Ogunniwaezekiel
+* Ezekiel Ogunniwa
+  * Github: https://github.com/Eminentzeal
+  * linkedin: https://www.linkedin.com/in/ogunniwaezekiel/
+  * Twitter: https://twitter.com/Ogunniwaezekiel
 
 ## Facilitators
 * [Godwin Nwachukwu](https://github.com/Gnwin).
@@ -23,12 +23,12 @@ This project is about creating a website using bootstrap framework. the website 
 
 ## Acknowledgements
 * HomeFrontStartup
-    * http://homefrontstartup.com.ng/
-    * Mentors International
-      * https://mentorsint.com/
-      * https://www.facebook.com/mentorshubyola/
-      * https://twitter.com/hub_mic
-      * https://www.linkedin.com/company/michub/
+  * http://homefrontstartup.com.ng/
+* Mentors International
+  * https://mentorsint.com/
+  * https://www.facebook.com/mentorshubyola/
+  * https://twitter.com/hub_mic
+  * https://www.linkedin.com/company/michub/
 
 ## Live Demo
   [See project live here](https://eminentezekiel-abercrombie-clone.netlify.app/)
