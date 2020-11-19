@@ -1,7 +1,7 @@
 # Abercrombie.com-clone
 
 ## About The Project
-This project is about creating a website using bootstrap framework
+This project is about creating a website using bootstrap framework. the website is built to be responsive to different screen sizes, and certain features are hidden for some mobile views
 
 ## Image
 ![landing page.](landing.png "This is the welcome interface")
@@ -31,8 +31,7 @@ This project is about creating a website using bootstrap framework
       * https://www.linkedin.com/company/michub/
 
 ## Live Demo
-  [See project live here](https://raw.githack.com/Eminentzeal/Abercrombie.com-clone/main/index.html)
-
+  [See project live here](https://eminentezekiel-abercrombie-clone.netlify.app/)
 
 ## Source site
   [Abercrombie](https://www.abercrombie.com).
