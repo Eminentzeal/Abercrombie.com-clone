@@ -37,7 +37,7 @@ This project is about creating a website using bootstrap framework. the website 
   [Abercrombie](https://www.abercrombie.com).
 
 
-#### 🤝 Contributions
+## 🤝 Contributions
   * This project is open to your comments and contributions, kindly reach the author through the above author's social media handles.
 
   [![Netlify Status](https://api.netlify.com/api/v1/badges/0baefe61-df75-4875-8d55-39d37ee42928/deploy-status)](https://app.netlify.com/sites/eminentezekiel-abercrombie-clone/deploys)
