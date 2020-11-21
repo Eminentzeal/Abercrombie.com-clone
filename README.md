@@ -1,5 +1,6 @@
 # Abercrombie.com-clone
 
+## About The Project
 This project is about creating a website using bootstrap framework. the website is built to be responsive to different screen sizes, and certain features are hidden for some mobile views
 
 ## Image
